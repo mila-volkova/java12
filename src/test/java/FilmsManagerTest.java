@@ -25,7 +25,7 @@ public class FilmsManagerTest {
         Assertions.assertArrayEquals(expected, actual);
     }
     @Test
-    public void OutputInReverseOrderTest() {
+    public void OutputInReverseOrderTest1() {
 
         FilmsManager manager = new FilmsManager(5);
         manager.addFilm("Movie first");
@@ -37,7 +37,7 @@ public class FilmsManagerTest {
         String[] expected = {"Movie fifth", "Movie fourth", "Movie third","Movie second","Movie first"};
         Assertions.assertArrayEquals(expected, actual);
     } @Test
-    public void OutputInReverseOrderTest1() {
+    public void OutputInReverseOrderTest2() {
 
         FilmsManager manager = new FilmsManager();
 
@@ -48,7 +48,7 @@ public class FilmsManagerTest {
         String[] expected = {"Movie fifth", "Movie fourth", "Movie third"};
         Assertions.assertArrayEquals(expected, actual);
     } @Test
-    public void OutputInReverseOrderTest2() {
+    public void OutputInReverseOrderTest3() {
 
         FilmsManager manager = new FilmsManager(7);
         manager.addFilm("Movie first");
